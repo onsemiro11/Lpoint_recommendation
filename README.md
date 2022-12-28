@@ -20,11 +20,10 @@ SGD를 이용한 행렬 분해(MF)는 User Latent(P) 와 Item Latent(Q) matrix�
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/49609175/209760008-b8af7868-6ce6-475b-9079-cb3988430caa.png">
 
 <행렬분해(MF)의 전반적인 절차>
-   1. User Latent와 Item Latent 행렬을 임의의 값을 가진 행렬로 초기화
-   
-   2. User Latent와 Item Latent transposition 행렬을 내적한 후, 각 bias를 더하고 실제 R행렬과의 차이를 계산
-   3. 차이를 최소화할 수 있도록 User Latent와 Item Latent 행렬의 값을 적절한 값으로 각각 업데이트
-   4. 특정 임계치 아래로 수렴할 때까지 반복하면서 User Latent와 Item Latent행렬을 업데이트해 근사화 진행
+1. User Latent와 Item Latent 행렬을 임의의 값을 가진 행렬로 초기화
+2. User Latent와 Item Latent transposition 행렬을 내적한 후, 각 bias를 더하고 실제 R행렬과의 차이를 계산
+3. 차이를 최소화할 수 있도록 User Latent와 Item Latent 행렬의 값을 적절한 값으로 각각 업데이트
+4. 특정 임계치 아래로 수렴할 때까지 반복하면서 User Latent와 Item Latent행렬을 업데이트해 근사화 진행
 
 ## 데이터 변환
 
