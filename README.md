@@ -17,8 +17,7 @@
 SGD를 이용한 행렬 분해(MF)는 User Latent(P) 와 Item Latent(Q) matrix로 계산된 예측 R matrix값이 실제 R matrix 값과 최소한의 오류를 가질 수 있도록,
 하나의 데이터를 추출하여 반복적으로 비용함수를 최적화함으로써 적합한 User Latent와 Item Latent를 유추한다.
 
-<img src="https://user-images.githubusercontent.com/49609175/209759232-9b23a26b-aed7-4e6d-afd3-17beeca121cf.png">
-<img src="https://user-images.githubusercontent.com/49609175/209759244-b242fbf9-56dd-4a89-a40d-d2f05f3d33d7.png">
+<img width="751" alt="image" src="https://user-images.githubusercontent.com/49609175/209760008-b8af7868-6ce6-475b-9079-cb3988430caa.png">
 
 <행렬분해(MF)의 전반적인 절차>
    1. User Latent와 Item Latent 행렬을 임의의 값을 가진 행렬로 초기화
