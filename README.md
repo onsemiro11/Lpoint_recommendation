@@ -17,8 +17,8 @@
 SGD를 이용한 행렬 분해(MF)는 User Latent(P) 와 Item Latent(Q) matrix로 계산된 예측 R matrix값이 실제 R matrix 값과 최소한의 오류를 가질 수 있도록,
 하나의 데이터를 추출하여 반복적으로 비용함수를 최적화함으로써 적합한 User Latent와 Item Latent를 유추한다.
 
-![image](https://user-images.githubusercontent.com/49609175/209759232-9b23a26b-aed7-4e6d-afd3-17beeca121cf.png)
-![image](https://user-images.githubusercontent.com/49609175/209759244-b242fbf9-56dd-4a89-a40d-d2f05f3d33d7.png)
+<img src="https://user-images.githubusercontent.com/49609175/209759232-9b23a26b-aed7-4e6d-afd3-17beeca121cf.png" width="300" height="300">
+<img src="https://user-images.githubusercontent.com/49609175/209759244-b242fbf9-56dd-4a89-a40d-d2f05f3d33d7.png" width="300" height="300">
 
 <행렬분해(MF)의 전반적인 절차>
    1. User Latent와 Item Latent 행렬을 임의의 값을 가진 행렬로 초기화
@@ -40,8 +40,24 @@ SGD를 이용한 행렬 분해(MF)는 User Latent(P) 와 Item Latent(Q) matrix�
 * reg_param : L2 normalization 계수
 * lr : learning rating
 
-𝑐𝑜𝑠𝑡= √((∑▒〖(𝑅−(𝑃∙𝑄^𝑇+𝑏))" " 〗^2 )/𝑛) 
-![image](https://user-images.githubusercontent.com/49609175/209759542-46ae39c3-5f15-4508-b72f-df4e3fd8475d.png)
+## 모델 검증
+
+RMSE 사용
+
+최종 RMSE : 0.945
+
+
+## 최종적이 결과 도출 화면
+
+<img src="https://user-images.githubusercontent.com/49609175/209759752-781cf83c-3b96-4de5-9b09-c16859483a88.png" width="300" height="300">
+
+## 개인화 마케팅 전략 제시
+
+추천 모델을 통해 개인화된 상품과 제휴사를 추천 및 인센티브를 제공해 줌으로써
+기존 고객의 이탈 방지가 가능할 것이며, 
+실용적인 소비를 도와 소비자 만족도를 증진시킬 수 있을 것이다.
+더 나아가 실질적인 상품 판매의 기회를 얻음과 적절한 서비스 제공이 가능하게 되어
+신규 소비자를 끌어올 수 있는 효과를 얻을 수 있을 것이다.
 
 
 
