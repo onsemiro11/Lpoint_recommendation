@@ -48,8 +48,8 @@ RMSE 사용
 
 
 ## 최종적이 결과 도출 화면
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/49609175/209759946-37d79e67-e820-482b-860b-f0729984d686.png">
 
-<img src="https://user-images.githubusercontent.com/49609175/209759752-781cf83c-3b96-4de5-9b09-c16859483a88.png">
 
 ## 개인화 마케팅 전략 제시
 
