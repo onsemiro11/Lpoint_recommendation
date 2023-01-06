@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 class MatrixFactorization():
     def __init__(self, R, k, learning_rate, reg_param, epochs, verbose=True):
         """
-        :R: 평점 행렬
+        :R: 평점 행렬 
         :param k: latent 차원 수
         :param learning_rate: 학습률
         :param reg_param: weight의 regularization 값
